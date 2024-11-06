@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vigenere cipher</title>
+    <link rel="stylesheet" href="../css/border.css">
+    <link rel="stylesheet" href="1.html">
+</head>
+<body background="/images/image 6.jpg">
+        <div class="navtag">
+            <div>
+                <a href="1.html">HOME</a>
+                <div class="dropdown">
+                    <botton style="font-size: 17px; box-shadow: black; border-color: black; color: white; background-color: black;">CIPHER</botton> 
+                    <div class="dropdown-content">
+                        <a href="caesar.html">CAESAR CIPHER</a>
+                        <a href="vernam.html">VERNAM CIPHER</a>
+                        <a href="rc4.html">RC4 CIPHER</a>
+                        <a href="play.html">PLAYFAIR CIPHER</a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    <main background="/images/image 6.jpg" class="margin">
+        <h1 style="font-size:5vw ;">Vigenere Cipher Encryption & Decryption</h1>
+        <div id="box" style="overflow: auto; ">
+            <div>
+                <label for="plaintext">Text : </label>
+                <textarea type="text" placeholder="enter the Plaintext" id="plaintext" name="plaintext" value=""></textarea>
+            </div>
+            <div>
+                <label for="key">Key : </label>
+                <input type="text" name="key" id="key" placeholder="Enter the key" value="">
+            </div>
+            <br>
+            <div>
+                <label for="text">Output :</label>
+                <textarea name="output" id="text" placeholder="Output" disabled value=""></textarea>
+            </div>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id="encryption" style="margin-right: 30px; height: 35px; width: 200px;background-color:rgb(0, 0, 0); color: white; ">Encryption</button>
+            <button id="decryption"style="margin-right: 10px; height: 35px; width: 200px;background-color:black;color: white;">Decryption</button> 
+        </div>
+        <br>
+        <br>
+        <script src="../java script/vignenere.js"></script>
+    </main>
+</body>
+</html>

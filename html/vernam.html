@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vernam Cipher </title>
+    <link rel="stylesheet" href="../css/border.css">
+</head>
+<body background="/images/image 5.jpg">
+        <div class="navtag">
+            <div>
+                <a href="1.html">HOME</a>
+                <div class="dropdown">
+                    <botton style="font-size: 17px; box-shadow: black; border-color: black; color: white; background-color: black;">CIPHER</botton> 
+                    <div class="dropdown-content">
+                        <a href="caesar.html">CAESAR CIPHER</a>
+                        <a href="vigenere.html">VIGENERE CIPHER</a>
+                        <a href="rc4.html">RC4 CIPHER</a>
+                        <a href="play.html">PLAYFAIR CIPHER</a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    <main class="margin">
+        <h1 style="font-size: 5vw;">Vernam Cipher Encryption & Decryption</h1>
+        <div id="box" style="overflow: auto; ">
+            <div>
+                <label for="plaintext">Text : </label>
+                <textarea id="plaintext" type="text" name="plaintext" placeholder="Enter the Text" value=""></textarea>
+            </div>
+            <div>
+                <label for="key">Key : </label>
+                <input type="text" name="key" id="key"placeholder="Enter the Key" value=""></input>
+            </div>
+            <div>
+                <label for="text">Output:</label>
+                <textarea name="encryption" id="text" cols="30" rows="10" placeholder="Output" disabled value=""></textarea>
+            </div>    
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id="encryption" style="margin-right: 30px; height: 35px; width: 200px;background-color:rgb(0, 0, 0); color: white;">Encryption</button>
+            <button id="decryption"style="margin-right: 10px; height: 35px; width: 200px;background-color:black;color: white;">Decryption</button> 
+        </div>
+        <br>
+        <br>
+        <script src="../java script/vernam.js"></script>
+    </main>
+</body>
+</html>
